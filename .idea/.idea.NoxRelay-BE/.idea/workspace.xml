@@ -15,13 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb9fdc7-a5f8-42e9-b86d-c0b7079891e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NoxRelay/Hubs/NoxRelayHub.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NoxRelay-BE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoxRelay-BE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoxRelay/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NoxRelay/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +46,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.NoxRelay: http.executor": "Run",
+    "Docker.NoxRelay/Dockerfile.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -52,7 +57,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "v0/hubs",
+    "git-widget-placeholder": "v0/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.NoxRelay: http">
+  <component name="RunManager" selected="Docker.NoxRelay/Dockerfile">
     <configuration name="NoxRelay: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/NoxRelay/NoxRelay.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
