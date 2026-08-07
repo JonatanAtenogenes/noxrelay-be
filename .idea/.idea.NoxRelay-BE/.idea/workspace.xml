@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb9fdc7-a5f8-42e9-b86d-c0b7079891e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NoxRelay/Models/Session.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoxRelay/Models/QueuedUser.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NoxRelay/Models/QueuedUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NoxRelay/Models/Session.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -137,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1786116791346</updated>
-      <workItem from="1786116792945" duration="1074000" />
+      <workItem from="1786116792945" duration="1125000" />
     </task>
     <servers />
   </component>
