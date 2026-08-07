@@ -1,0 +1,6 @@
+@NoxRelay_HostAddress = http://localhost:5105
+
+GET {{NoxRelay_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

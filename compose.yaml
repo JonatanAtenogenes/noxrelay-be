@@ -1,0 +1,7 @@
+﻿services:
+  noxrelay:
+    image: noxrelay
+    build:
+      context: .
+      dockerfile: NoxRelay/Dockerfile
+
