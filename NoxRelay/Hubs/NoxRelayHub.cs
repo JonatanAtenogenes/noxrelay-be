@@ -41,12 +41,25 @@ public class NoxRelayHub : Hub
         await Groups.AddToGroupAsync(session.UserB.ConnectionId, session.Id);
         
         _logger.LogInformation(
-            "Emitting 'matched' to group {SessionId}", session.Id);
-
-        await Clients.Group(session.Id).SendAsync("matched", new
+            "Emitting 'matched' to session {SessionId} — userA={UserAConn} userB={UserBConn}",
+            session.Id, session.UserA.ConnectionId, session.UserB.ConnectionId);
+        
+        // Sent per-participant rather than to the whole group, since each
+        // side needs to know which of "A"/"B" it is — that information is
+        // only known server-side (by ConnectionId) and can't be inferred
+        // by the client from a shared broadcast.
+        await Clients.Client(session.UserA.ConnectionId).SendAsync("matched", new
         {
             sessionId = session.Id,
             currentTurn = session.CurrentTurn,
+            yourSide = "A"
+        });
+
+        await Clients.Client(session.UserB.ConnectionId).SendAsync("matched", new
+        {
+            sessionId = session.Id,
+            currentTurn = session.CurrentTurn,
+            yourSide = "B"
         });
     }
 
