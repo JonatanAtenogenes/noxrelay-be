@@ -16,7 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4eb9fdc7-a5f8-42e9-b86d-c0b7079891e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NoxRelay-BE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NoxRelay-BE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoxRelay/Hubs/NoxRelayHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NoxRelay/Hubs/NoxRelayHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "v0/improvements",
+    "git-widget-placeholder": "chore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
