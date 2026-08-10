@@ -117,6 +117,29 @@ public class NoxRelayHub : Hub
         _sessionManager.RemoveSession(session.Id);
     }
 
+    public async Task CompleteSentence()
+    {
+        var session = _sessionManager.GetSessionByConnectionId(Context.ConnectionId);
+        if (session is null)
+        {
+            _logger.LogWarning(
+                "CompleteSentence from {ConnectionId} but no active session found",
+                Context.ConnectionId);
+            return;
+        }
+        
+        _logger.LogInformation(
+            "Sentence completed in session {SessionId}: \"{Sentence}\"",
+            session.Id, session.Sentence);
+        
+        await Clients.Group(session.Id).SendAsync("sentence_completed", new
+        {
+            finalSentence = session.Sentence
+        });
+        
+        _sessionManager.RemoveSession(session.Id);
+    }
+
     public override async Task OnDisconnectedAsync(Exception? exception)
     {
         if (exception is not null)
